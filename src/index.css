@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&family=PT+Sans+Narrow&family=Titan+One&display=swap');
+
+:root{
+  --color1: #3D3D6B;
+  --color2: #ECDD53;
+  --color: #fff;
+
+  --blackColor: #000;
+  --whiteColor: #fff;
+  --c1: #ABD699;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #2F4858;
+}
+h1,h3,p{
+  color: var(--color);
+}

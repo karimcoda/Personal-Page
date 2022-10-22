@@ -1,0 +1,32 @@
+.socialmediaicone li.socialmediaicon{
+    display: inline-block;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+
+    -webkit-box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+    -moz-box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+    -o-box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+
+    transition: all .5s;
+}
+.socialmediaicone li.socialmediaicon:hover{
+    transform: scale(1.2);
+}
+a{
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .socialmediaicone li.socialmediaicon{
+        width: 30px;
+        height: 30px;
+    }
+}

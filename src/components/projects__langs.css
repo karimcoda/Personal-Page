@@ -1,0 +1,18 @@
+.HTML{
+    background-color: #DC4A25;
+}
+.JavaScript{
+    background-color: #EFD81D;
+}
+.CSS{
+    background-color: #264BDD;
+}
+.PHP{
+    background-color: #7377AD;
+}
+span{
+    color: #fff;
+    margin: 0 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
