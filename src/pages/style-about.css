@@ -171,3 +171,36 @@ q {font-style: italic;}
     max-width: 64px;
     min-height: 64px;
 }
+
+@media only screen and (max-width: 800px) {
+    .aboutme {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme__content{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .personal-skills h3{
+        font-size: 40px;
+    }
+    .Services_item{
+        width: 100%;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .skillsicon {
+        margin: 10px !important;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .personal-skills h3{
+        font-size: 20px;
+        
+    }
+    .personal-skillsicon {
+        width: 40px !important;
+    }
+}
