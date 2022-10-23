@@ -1,0 +1,113 @@
+.contact{
+    min-height: 130vh;
+    position: relative;
+}
+.contact--container{
+    width: 70%;
+    height: 70vh;
+    position: relative;
+    margin: 0 auto;
+    background-color: #9ab0a647;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.contact-information, .contact-massage{
+    position: absolute;
+}
+.contact-information{
+    left: -50px;
+    background-color: #527177;
+    top: 50%;
+    margin-top: -185px;
+    height: 80%;
+    border-radius: 5px;
+    padding: 10%;
+
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+.contact-information h3{
+    font-size: 30px;
+}
+.list-information .item{
+    list-style: none;
+    margin: 20px 0;
+}
+.contact-massage{
+    right: 20px;
+    height: 80%;
+    width: 50%;
+    margin-top: 20px;
+}
+form{
+    height: 100%;
+}
+fieldset{
+    height: 80%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+fieldset label{
+    margin-bottom: 10px;
+}
+fieldset label p{
+    color: #fff;
+    margin: 0 !important;
+}
+fieldset label input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    outline: none;
+}
+textarea{
+    margin-top: 20px;
+    padding: 10px;
+    height: 130px;
+}
+
+button{
+    width: 100%;
+    margin: 10px 0;
+    background-color: #527177;
+    border: 1px solid #000;
+    color: #fff;
+    transition: all .5s;
+}
+button:hover{
+    background-color: #455f64;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+@media only screen and (max-width: 1000px){
+    .contact{
+        min-height: 180vh;
+    }
+    .contact--container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+    }
+    .contact-information, .contact-massage{
+        position: initial;
+    }
+    .contact-information{
+        margin-top: 0 !important;
+        height: fit-content;
+    }
+    .contact-massage{
+        width: 90%;
+    }
+}
