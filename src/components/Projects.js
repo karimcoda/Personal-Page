@@ -11,7 +11,7 @@ function Projects() {
     const [isLoading, setIsLoading] = useState(false);
     
     const url = 'https://api.github.com/users/karimcoda/repos';
-    const API__KEY = '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';
+    const API__KEY = '';
         const fetchData = async () => {
                 setIsLoading(true);
                 await axios.get(url, {
