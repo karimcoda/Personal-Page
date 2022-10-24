@@ -6,7 +6,7 @@ import './projects__langs.css'
 
 function Projects__langs(props) {
     const langs__URL = props.url;
-    const API__KEY = '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';
+    const API__KEY = '';
     const [langs, setLangs] = useState([]);
     const fetchlang = async () => {
         axios.get(langs__URL,{
